@@ -47,8 +47,4 @@ function create_colorSwatch() {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
 
