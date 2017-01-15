@@ -93,15 +93,18 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
 .title {
+  font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 110%;
   font-weight: bold;
 }
 
 .coauthor {
+  font-family: 'Montserrat', Helvetica, sans-serif;
   font-variant: small-caps;
 }
 
 .journal {
+  font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 90%;
   color: #b82b00;
 }
