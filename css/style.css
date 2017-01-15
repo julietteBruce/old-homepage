@@ -99,10 +99,16 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 .coauthor {
   font-family: 'Merriweather', Georgia, Time;
+  font-size: 90%;
 }
 
 .journal {
   font-family: 'Merriweather', Georgia, Time;
   font-size: 90%;
   color: #b82b00;
+}
+
+.links {
+  font-family: 'Merriweather', Georgia, Time;
+  font-size: 90%;
 }
