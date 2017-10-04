@@ -16,7 +16,7 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 img.avatar { margin-bottom: 30px;  width:300px; height:300px; }
 
-img.smallavatar { margin-bottom: 30px;  width:250px; height:250px; }
+img.smaller { margin-bottom: 30px;  width:250px; height:250px; }
 
 
 img.banner { margin-bottom: 30px;  width:1024px; height:278px; }
