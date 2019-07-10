@@ -14,7 +14,7 @@ description: Juliette Bruce's Programing Page
 <p>I frequently enjoy programming, most often working in either Macaulay2, MatLab, or HTML/CSS/Bootstrap, however, I also have (limited) experience with Python and Sage. A few of the more substantive projects I have worked are listed below.</p>
 <br>
 <!-- BREAK BREAK BREAK -------------------------->
-<h3>SyzygyData</h3> - <h2> A Online Database of Syzygies</h2>
+<h3>SyzygyData</h3> - <h4> A Online Database of Syzygies</h4>
 <hr>
 <div class="row">
     <div class="col-xs-12">
@@ -37,17 +37,26 @@ description: Juliette Bruce's Programing Page
 <hr>
 <div class="row">
     <div class="col-xs-12">
-		<p style="font-size: 14"> A central open question in the study of syzygies is to describe the
-		Betti table of \(\mathbb{P}^{n}\) under the degree \(d\) Veronese
-		embedding. While the case when \(n=1\) is fully understood and classical
-		&mdash; the minimal resolution is given by an Eagon-Northcott complex
-		&mdash; in higher dimensions this problem is almost entirely open. For
-		example, when \(n=2\), not only is a complete description unknown, but
-		only a handful of examples have ever been computed. The
-		goal of this project is to use numerical linear algebra and high
-		throughput, distributed computing to systematically gather new examples
-		of Betti tables of Veronese embeddings of \(\mathbb{P}^n\).
-      <br><br>
+		<p style="font-size: 14">
+		While graded minimal free resolutions are useful for studying
+		quasicoherent sheaves over projective space, when working over a
+		product of projective spaces or, more generally, over smooth
+		projective toric varieties, graded minimal free resolutions over
+		the Cox ring seem too restricted by algebraic structure that is
+		in some sense unimportant geometrically. By allowing a limited
+		amount of homology, virtual resolutions, first introduced by Berkesch, Erman, and Smith (see arXiv:1703.07631),
+		offer a more flexible
+		alternative for studying toric subvarieties when compared to
+		minimal graded free resolutions.
+		
+		This Macaulay2 package provides tools for constructing and studying
+		virtual resolutions for products of projective spaces. In particular, it
+		implements a number of the methods for constructing virtual resolutions
+		for products of projective spaces as introduced by Berkesch, Erman, and
+		Smith. It contains methods for constructing curves in
+		\(\mathbb{P}^1\times\mathbb{P}^2\) as these are a natural source for
+		interesting virtual resolutions.
+<br><br>
       </p>
     </div>
 </div>
