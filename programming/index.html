@@ -19,39 +19,12 @@ I have worked are listed below.</p>
 <!-- BREAK BREAK BREAK -------------------------->
 <!-- BREAK BREAK BREAK -------------------------->
 <!-- 
- <h4>Optimizing Crowdfunding</h4>
+ <h4>SyzygyData.com - A Database for Syzygies</h4>
  <hr>
  <div class="row">
 	<div class="col-xs-8">
-	  <p>In the Crowdfunding model, many users pledge a small amount of funding towards a common project which is funded if the total amount of the pledges exceeds a reserve price. The harsh reality of crowdfunding is that there are far more loans than lenders and the total budget of pledges available is very limited. Many bad projects don’t stand a chance at being funded, and it is a waste of precious impressions to even show them. Naive strategies that do not prioritize projects likely to reach the given price are doomed to only partially fund many projects, versus a preferred outcome of a moderate number fully funded to the reserve price.
-	  <br>
-	  <b>Problem: How do we match projects to users to result in the largest number of fully funded projects, versus the unfavored alternative of many partially funded projects?</b>
-	  <br>
-	  We are working closely with the nonprofit microlending site <a href="http://kiva.org">Kiva</a> to find ways ensuring that as many loans as possible are funded.
-	  <br><br>
-	  <b>Publication: <br><a href="http://proceedings.mlr.press/v80/jain18a/jain18a.pdf">Firing Bandits: Optimizing Crowdfunding</a>. L. Jain, K. Jamieson. ICML 2018.</b>
-	  </p>
-	</div>
-
-	<div class="col-xs-4">
-	  <img src="/img/kiva.jpeg" class="img-responsive"></img>
-	</div>
- </div>
- <br>
- -->
-<!-- BREAK BREAK BREAK -------------------------->
-<!-- 
-<br>
-  <li>
-		<span class="title">SyzygyData</span>
-		<br>
-		<span class="journal">An Online Database of Syzygies</span>
-		<br>
-		<div class="btn-group btn-group-xs">
-			<button class="btn btn-primary" data-toggle="collapse" data-target="#syzygy-data">description</button>
-		</div>
-		<div id="syzygy-data" class="collapse">
-		A central open question in the study of syzygies is to describe the
+	  <p>
+	    A central open question in the study of syzygies is to describe the
 		Betti table of \(\mathbb{P}^{n}\) under the degree \(d\) Veronese
 		embedding. While the case when \(n=1\) is fully understood and classical
 		&mdash; the minimal resolution is given by an Eagon-Northcott complex
@@ -62,20 +35,26 @@ I have worked are listed below.</p>
 		throughput, distributed computing to systematically gather new examples
 		of Betti tables of Veronese embeddings of \(\mathbb{P}^n\). This is a
 		joint project with Daniel Erman, Steve Goldstein, and Jay Yang. 
+	  </p>
+	  <br><br>
+	  <b>Publication: <br><a href="http://proceedings.mlr.press/v80/jain18a/jain18a.pdf">Firing Bandits: Optimizing Crowdfunding</a>. L. Jain, K. Jamieson. ICML 2018.</b>
+	  </p>
 	</div>
-  </li>
+
+	<div class="col-xs-4">
+	  <img src="/img/kiva.jpeg" class="img-responsive"></img>
+	</div>
+ </div>
  <br>
+<!-- BREAK BREAK BREAK -------------------------->
+<!-- BREAK BREAK BREAK -------------------------->
  
-  <li>
-		<span class="title">VirtualResolutions</span>
-		<br>
-		<span class="journal">A Macaulay2 Package</span>
-		<br>
-		<div class="btn-group btn-group-xs">
-			<button class="btn btn-primary" data-toggle="collapse" data-target="#VirtualResolutions">description</button>
-		</div>
-		<div id="VirtualResolutions" class="collapse">
-		While graded minimal free resolutions are useful for studying
+ <h4>VirtualResolutions - A package for Macualay2</h4>
+ <hr>
+ <div class="row">
+	<div class="col-xs-8">
+	  <p>
+	   While graded minimal free resolutions are useful for studying
 		quasicoherent sheaves over projective space, when working over a
 		product of projective spaces or, more generally, over smooth
 		projective toric varieties, graded minimal free resolutions over
@@ -94,20 +73,27 @@ I have worked are listed below.</p>
 		\(\mathbb{P}^1\times\mathbb{P}^2\) as these are a natural source for
 		interesting virtual resolutions. This is a joint project with Ayah Almousa, 
 		Michael C. Loper, and Mahrud Sayrafi. 
+	  </p>
+	  <br><br>
+	  <b>Publication: <br><a href="http://proceedings.mlr.press/v80/jain18a/jain18a.pdf">Firing Bandits: Optimizing Crowdfunding</a>. L. Jain, K. Jamieson. ICML 2018.</b>
+	  </p>
 	</div>
-  </li>
+
+	<div class="col-xs-4">
+	  <img src="/img/kiva.jpeg" class="img-responsive"></img>
+	</div>
+ </div>
  <br>
- 
-   <li>
-		<span class="title">SchurVeronese</span>
-		<br>
-		<span class="journal">A Macaulay2 Pacakge</span>
-		<br>
-		<div class="btn-group btn-group-xs">
-			<button class="btn btn-primary" data-toggle="collapse" data-target="#SchurVeronese">description</button>
-		</div>
-		<div id="SchurVeronese" class="collapse">
-		Using a combination of high throughput
+
+<!-- BREAK BREAK BREAK -------------------------->
+ <!-- BREAK BREAK BREAK -------------------------->
+
+ <h4>SchurVeronses - A package for Macualay2</h4>
+ <hr>
+ <div class="row">
+	<div class="col-xs-8">
+	  <p>
+	   Using a combination of high throughput
       high perfomance computing and sparse numerical linear algebra Daniel Erman, Steve Goldstein, and I managed
       to  compute the syzygies of \(\mathbb{P}^{2}\)under the \(d\)-uple Veronese embedding
       for a number of values of \(d\). See <a href="http://arxiv.org/abs/1711.03513">arxiv:1711.03513</a>.
@@ -115,10 +101,40 @@ I have worked are listed below.</p>
       these computations (graded Betti numbers, multigraded Betti numbers, 
       Schur functor decompositions, etc.) is currently available online via syzygydata.com.
       The goal of this package is to make this data more accessible and easy to 
-      use by providing a way to access it via Macaulay2.
+      use by providing a way to access it via Macaulay2. 
+	  </p>
+	  <br><br>
+	  <b>Publication: <br><a href="http://proceedings.mlr.press/v80/jain18a/jain18a.pdf">Firing Bandits: Optimizing Crowdfunding</a>. L. Jain, K. Jamieson. ICML 2018.</b>
+	  </p>
 	</div>
-  </li>
+
+	<div class="col-xs-4">
+	  <img src="/img/kiva.jpeg" class="img-responsive"></img>
+	</div>
+ </div>
  <br>
+
+
+ <h4>TestIdeals - A package for Macualay2</h4>
+ <hr>
+ <div class="row">
+	<div class="col-xs-8">
+	  <p>
+	  TestIdeals is a package for the Macaulay2 package focused on computing test ideals and related objects useful in the study of of F-singularities. This is done
+	  by constructing functions to efficently compute the Frobenious root of an ideal, as introducted in by Blickle-Mustata-Smith. This package was co-authored with
+	  Erin Bela, Alberto F. Boix, Drew Ellingson, Daniel Hernandez, Zhibek Kadyrsizova, Mordechai Katzman, Mordechai Katzman, Matthew Mastroeni, Maral Mostafazadehfard, 
+	  Marcus Robinson, Karl Schwede, Dan Smolkin, Pedro Teixeira, and Emily Witt. 
+	  </p>
+	  <br><br>
+	  <b>Publication: <br><a href="https://arxiv.org/pdf/1810.02770.pdf">The TestIdeals package for Macaulay2</a>. L. Jain, K. Jamieson. ICML 2018.</b>
+	  </p>
+	</div>
+
+	<div class="col-xs-4">
+	  <img src="/img/kiva.jpeg" class="img-responsive"></img>
+	</div>
+ </div>
+ 
 
    <li>
 		<span class="title">TestIdeals</span>
