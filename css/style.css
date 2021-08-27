@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible);
 
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Atkinson Hyperlegible', Georgia, Times; font-size: 14px; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 14px; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
 
@@ -99,18 +99,23 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 .title {
   font-family: 'Merriweather', Georgia, Time;
-  font-weight: bold;
+  font-size: 14px;
+  /*font-weight: bold;*/
 }
 
 .coauthor {
   font-family: 'Merriweather', Georgia, Time;
-  font-size: 90%;
+  font-size: 14px;
+    /* font-size: 90%;*/
 }
 
 .journal {
   font-family: 'Merriweather', Georgia, Time;
+  font-size: 14px
+  /* 
   font-size: 90%;
   color: #b82b00;
+ */
 }
 
 .links {
